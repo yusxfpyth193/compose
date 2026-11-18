@@ -1,7 +1,7 @@
 services:
   web:
     image: salutacio: 10888130
-    container_name: salutacio-compose
+    container_name: "salutacio-compose"
     ports:
      - "8000:5000"
     enviroment:
