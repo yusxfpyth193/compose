@@ -1,0 +1,8 @@
+services:
+  web:
+    image: salutacio: 10888130
+    container_name: salutacio-compose
+    ports:
+     - "8000:5000"
+    enviroment:
+    MISSATGE: "hola des de Docker"
